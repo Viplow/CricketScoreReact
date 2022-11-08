@@ -36,3 +36,70 @@
     transform: rotate(360deg);
   }
 }
+.scoreDiv{
+  background-image: url("./assets/cricket-bg.png");
+  width: 100%;
+  height: 45%;
+  background-size: cover;
+  display: flex;
+  justify-content:space-between;
+  flex-direction:column
+}
+.yettobat{
+  display: inline-block; width: 100px; height: 100px; margin-right: 10px;
+}
+.imageyettobat{
+  width: 100px; height: 100px;
+}
+.firstTeamScore{
+  float: left;
+  margin: 10px;
+  border-style: solid;
+}
+.secondTeamScore{
+  float: right;
+  margin: 10px;
+  border-style: solid;
+}
+.batting{
+  margin-top: 40px;
+}
+.center{
+  margin-left: auto;
+  margin-right: auto;
+}
+.active{
+  border-color: red;
+}
+.firstTeamImage{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+.secondTeamImage{
+  height: 30px;
+  width: 30px;
+  display: inline-block;
+}
+.scorecardsection{
+  position: relative;
+  height: 40%;
+}
+.firstTeamDiv{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.secondTeamDiv{
+  margin: 10px;
+  display: flex;
+  align-items: center;
+}
+.white-box {
+  background-color: white;
+  color: black;
+}
+.scoresFirst{
+  position: absolute;
+  right: 20%;
+}
