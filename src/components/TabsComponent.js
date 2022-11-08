@@ -2,6 +2,8 @@
 import React, { useState } from 'react'
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
+import CommentaryInformation from './CommentaryInformation';
+import HighlightsInformation from './HighlightsInformation';
 import ScoreCardInformation from './ScoreCardInformation';
 import SquadInformation from "./SquadInformation"
 const TabsComponent = () => {
@@ -19,6 +21,12 @@ const TabsComponent = () => {
             </TabPanel>
             <TabPanel>
                 <ScoreCardInformation />
+            </TabPanel>
+            <TabPanel>
+                <CommentaryInformation />
+            </TabPanel>
+            <TabPanel>
+                <HighlightsInformation />
             </TabPanel>
         </Tabs>
     );
